@@ -21,7 +21,13 @@ namespace WebAPI
             );
 
             config.Formatters.JsonFormatter.SupportedMediaTypes.Add
-                (new System.Net.Http.Headers.MediaTypeHeaderValue("text/html"));
+         (new System.Net.Http.Headers.MediaTypeHeaderValue("text/html"));
+
+            //config.Formatters.JsonFormatter.SupportedMediaTypes.Add
+            //    (new System.Net.Http.Headers.MediaTypeHeaderValue("text/plain"));
+
+            //config.Formatters.JsonFormatter.SupportedMediaTypes.Add
+            //   (new System.Net.Http.Headers.MediaTypeHeaderValue("application/json"));
         }
     }
 }
